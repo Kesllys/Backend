@@ -1,0 +1,116 @@
+{
+    "clientes": [
+      {
+        "id": 1,
+        "nome": "Gallo",
+        "e-mail": "gallo@gallo.com",
+        "senha": "12345"
+      },
+      {
+        "id": 2,
+        "nome": "Indiano",
+        "e-mail": "indiano@val.com",
+        "senha": "654321"
+      },
+      {
+        "id": 3,
+        "nome": "Carneiro",
+        "e-mail": "carneiro@beh.com",
+        "senha": "987654321"
+      },
+      {
+        "nome": "Rose",
+        "e-mail": "Rose@rose.com",
+        "senha": "saejmfgwnhbh/gvçsvbfcugazil",
+        "id": 4
+      }
+    ],
+    "pedidos": [
+      {
+        "id": 1,
+        "id_cliente": 1,
+        "data_pedido": "2023-03-31",
+        "total": 124.24
+      },
+      {
+        "id": 2,
+        "id_cliente": 3,
+        "data_pedido": "2023-03-01",
+        "total": 300.5
+      }
+    ],
+    "itens_pedidos": [
+      {
+        "id_pedido": 1,
+        "id_produto": 1,
+        "preco_unitario": 10.65,
+        "quantidade": 2,
+        "preco_total": 21.3
+      },
+      {
+        "id_pedido": 1,
+        "id_produto": 3,
+        "preco_unitario": 50,
+        "quantidade": 2,
+        "preco_total": 100
+      },
+      {
+        "id_pedido": 2,
+        "id_produto": 2,
+        "preco_unitario": 200,
+        "quantidade": 1,
+        "preco_total": 200
+      },
+      {
+        "id_pedido": 2,
+        "id_produto": 3,
+        "preco_unitario": 50,
+        "quantidade": 2,
+        "preco_total": 100
+      },
+      {
+        "id_pedido": 2,
+        "id_produto": 1,
+        "preco_unitario": 12.12,
+        "quantidade": 2,
+        "preco_total": 24.24
+      }
+    ],
+    "produtos": [
+      {
+        "id_produto": 1,
+        "nome_produto": "óleo",
+        "descricao_produto": "lata de óleo",
+        "preco": 10.65,
+        "nome_imagem": "https://trimais.vteximg.com.br/arquivos/ids/1039254-1000-1000/foto_original.jpg?v=637991950992300000"
+      },
+      {
+        "id_produto": 3,
+        "nome_produto": "arroz",
+        "descricao_produto": "saco de arroz",
+        "preco": 50,
+        "nome_imagem": "https://www.camil.com.br/wp-content/uploads/sites/12/2020/06/images-upload-uploaded-1344-arroz-organico.png"
+      },
+      {
+        "id_produto": 2,
+        "nome_produto": "picanha",
+        "descricao_produto": "pedaço de picanha Wagyu",
+        "preco": 200,
+        "nome_imagem": "https://swiftbr.vteximg.com.br/arquivos/ids/166996-768-768/picanha-swift-wagyu-617358-3.png?v=637353341526770000"
+      },
+      {
+        "id_produto": 3,
+        "nome_produto": "nutella",
+        "descricao_produto": "pote de nutella 650g",
+        "preco": 50,
+        "nome_imagem": "https://img.zanepan.com.br/Zanepan/571407.jpg"
+      },
+      {
+        "id_produto": 1,
+        "nome_produto": "chips",
+        "descricao_produto": "pacote de chips fofura",
+        "preco": 12.12,
+        "nome_imagem": "https://static.merqueo.com/images/products/large/5d9971c9-825b-48ca-827d-687c3aa78320.jpg"
+      }
+    ]
+  }
